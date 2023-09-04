@@ -13,14 +13,10 @@
   a:visited {
     color: $white;
   }
-
-  footer {
-    color: $white;
-  }
 }
 
 .light {
-  background-color: $lightpink;
+  background-color: $custom;
   color: $dark;
   transition: all 400ms;
 }

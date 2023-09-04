@@ -1,67 +1,61 @@
 import self from "../img/self.png"
 import mock1 from "../img/mock1.png"
-import mock2 from "../img/mock2.png"
-import mock3 from "../img/mock3.png"
-import mock4 from "../img/mock4.png"
-import mock5 from "../img/mock5.png"
-import mock6 from "../img/mock6.svg"
-import mock7 from "../img/mock7.png"
-import mock8 from "../img/mock8.webp"
-import mock9 from "../img/mock9.svg"
-import mock10 from "../img/mock10.png"
-import mock11 from "../img/mock11.png"
-import mock12 from "../img/mock12.png"
+import mock2 from "../img/mock2.JPG"
+// import mock3 from "../img/mock3.png"
+// import mock4 from "../img/mock4.png"
+// import mock5 from "../img/mock5.png"
+// import mock6 from "../img/mock6.svg"
 
-export let colors = ["rgb(255, 105, 180)", "rgb(255, 105, 180)", "rgb(0, 0, 0)"];
+// this is your theme colors 
+export let colors = ["rgb(0, 204, 204)", "rgb(153, 0, 153)", "rgb(0, 204, 204)"];
 
 export const info = {
-    firstName: "Thando",
-    lastName: "Khoase",
-    initials: "TK", 
-    position: "a Frontend Engineer",
+    firstName: "Megan",
+    lastName: "Butler",
+    position: "Fullstack Developer",
     selfPortrait: self, 
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, 
-    baseColor: colors[0],
+    baseColor: colors[0], //base color is the in colors
     miniBio: [
         {
-            emoji: '💻 ',
-            text: 'fueled by challenges (corny but true)'
+            emoji: '🎨',
+            text: 'Blender is my favourite place to be'
         },
         {
-            emoji: '🌎',
-            text: 'based in the South Africa'
+            emoji: '🏖️',
+            text: 'I would co-author books like how to code for dummies'
         },
         {
-            emoji: "💼",
-            text: "Frontend Engineer"
+            emoji: "💻",
+            text: "Game Developer"
         },
         {
             emoji: "📧",
-            text: "thandokhoase19@gmail.com"
+            text: "meganstar.300@gmail.com"
         }
     ],
     socials: [
         {
-            link: "https://github.com/music-tko",
+            link: "https://github.com/Popcorn-o0",
             icon: "fa fa-github",
             label: 'github'
         },
         {
-            link: "https://www.linkedin.com/in/thay-khoase026/",
+            link: "https://www.linkedin.com/in/megan-butler-99722821a/",
             icon: "fa fa-linkedin",
             label: 'linkedin'
-        },
-        {
-            link: "https://twitter.com/ThayDevToBe",
-            icon: "fa fa-twitter",
-            label: 'twitter'
         }
+        // {
+        //     link: "https://twitter.com/ThayDevToBe",
+        //     icon: "fa fa-twitter",
+        //     label: 'twitter'
+        // }
     ],
-    bio: "Hello! I'm Thando. I'm a Frontend Engineer. I'm selftaught, I enjoy reading all types of books and playing all times of pc games, and I am always looking to learn more. You should hire me!",
+    bio: "Aspiring Game Developer who has skills in Fullstack Development, I love playing and watching gameplay in my free time and it'd be a dream to build them!",
     skills:
         {
-            proficientWith: ['javascript', 'typescript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma', 'wordpress php', 'shopify liquid', 'tailwindcss', 'jQuery', 'redux'],
-            exposedTo: ['php', 'firebase']
+            proficientWith: ['Java', 'C#', 'HTML', 'CSS', 'Python'],
+            exposedTo: ['JavaScript']
         }
     ,
     hobbies: [
@@ -70,55 +64,62 @@ export const info = {
             emoji: '📖'
         },
         {
-            label: 'theater',
-            emoji: '🎭'
+            label: 'gaming',
+            emoji: '🕹️'
         },
         {
-            label: 'movies',
-            emoji: '🎥'
+            label: 'eating',
+            emoji: '🍜'
         },
         {
-            label: 'music',
-            emoji: '🎵'
+            label: 'sports',
+            emoji: '🏑'
         }
 
     ],
+    // images and links to github and live sites - copy the object if you have more itemas to add - add urls in github and live - rename the mock variable to your project screenshots
     portfolio: [
         {
-            image: mock1
+            image: mock1,
+            github: "https://github.com/Popcorn-o0/Formal-website-development-assesment-1",
+            gitIcon: "fa fa-github"
+            //, liveIcon: "fa fa-link",
+            // live: "https://thayydevvy.vercel.app/"
         },
         {
-            image: mock2
-        },
-        {
-            image: mock9
-        },
-        {
-            image: mock4
-        },
-        {
-            image: mock7
-        },
-        {
-            image: mock6
-        },
-        {
-            image: mock8
-        },
-        {
-            image: mock3
-        },
-        {
-            image: mock5
-        },
-        {
-            image: mock10
-        },
-        {
-            image: mock11
-        },
-        {
-            image: mock12
+            image: mock2,
+            github: "https://github.com/Popcorn-o0/Python-Formal-Assesment-1",
+            gitIcon: "fa fa-github"
+            //, liveIcon: "fa fa-link",
+            // live: "https://thayydevvy.vercel.app/"
         }
+        //, {
+        //     image: mock3,
+        //     github: "https://github.com/music-tko",
+        //     gitIcon: "fa fa-github",
+        //     liveIcon: "fa fa-link",
+        //     live: "https://thayydevvy.vercel.app/"
+        // },
+        // {
+        //     image: mock4,
+        //     github: "https://github.com/music-tko",
+        //     gitIcon: "fa fa-github",
+        //     liveIcon: "fa fa-link",
+        //     live: "https://thayydevvy.vercel.app/"
+        // },
+        // {
+        //     image: mock5,
+        //     github: "https://github.com/music-tko",
+        //     gitIcon: "fa fa-github",
+        //     liveIcon: "fa fa-link",
+        //     live: "https://thayydevvy.vercel.app/"
+        // },
+        // {
+        //     image: mock6,
+        //     github: "https://github.com/music-tko",
+        //     gitIcon: "fa fa-github",
+        //     liveIcon: "fa fa-link",
+        //     live: "https://thayydevvy.vercel.app/"
+        // }
     ]
 }
